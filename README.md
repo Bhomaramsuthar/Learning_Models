@@ -1,1 +1,30 @@
-Machine Learning: Classification & PreprocessingThis repository contains implementations and experiments covering the end-to-end machine learning pipeline, from data preparation to model evaluation.📁 Core Topics1. Data PreprocessingFeature Scaling: Implementation of StandardScaler to normalize feature distributions ($mean = 0, std = 1$). Essential for distance-based and gradient-based algorithms.Handling Class Imbalance: Utilizing RandomOverSampler (from imblearn) to balance training sets, ensuring the models do not become biased toward the majority class.Data Splitting: Custom workflows for partitioning data into Training, Validation, and Testing sets to ensure model generalizability.2. Models ImplementedThe following classification algorithms are implemented and compared:K-Nearest Neighbors (KNN): Distance-based classification using $k$-neighbor voting.Naive Bayes: Probabilistic classification based on Bayes' Theorem with feature independence assumptions.Logistic Regression: Linear model for predicting categorical outcomes via the sigmoid function.Support Vector Machines (SVM): Maximum-margin classification using optimal hyperplanes.Neural Networks (NN): Multi-layer perceptron implementations for capturing non-linear relationships.3. Evaluation MetricsModels are evaluated using metrics beyond simple accuracy to account for imbalanced datasets:Precision & RecallF1 Score (Harmonic mean of precision and recall)Confusion Matrix Analysis🛠️ Tools UsedLanguage: PythonData: Pandas, NumPyVisualization: Matplotlib, SeabornMachine Learning: Scikit-learn, Imbalanced-learn, TensorFlow/Keras (for NN)
+# Machine Learning: 
+Classification & PreprocessingThis repository contains implementations and experiments covering the end-to-end machine learning pipeline, from data preparation to model evaluation.
+
+# Core Topics
+1. Data PreprocessingFeature Scaling:
+    1. Implementation of StandardScaler to normalize feature distributions ($mean = 0, std = 1$). Essential for distance-based and gradient-based algorithms.
+    2. Handling Class Imbalance:
+        Utilizing RandomOverSampler (from imblearn) to balance training sets, ensuring the models do not become biased toward the majority class.
+    3. Data Splitting:
+        Custom workflows for partitioning data into Training, Validation, and Testing sets to ensure model generalizability.
+
+2. Models ImplementedThe following classification algorithms are implemented and compared:
+    1. K-Nearest Neighbors (KNN):
+        Distance-based classification using $k$-neighbor voting.
+    2. Naive Bayes: 
+        Probabilistic classification based on Bayes' Theorem with feature independence assumptions.
+    3. Logistic Regression: 
+        Linear model for predicting categorical outcomes via the sigmoid function.
+    4. Support Vector Machines (SVM):
+        Maximum-margin classification using optimal hyperplanes.
+    5. Neural Networks (NN):
+        Multi-layer perceptron implementations for capturing non-linear relationships.
+
+3. Evaluation MetricsModels are evaluated using metrics beyond simple accuracy to account for imbalanced datasets:
+    Precision & RecallF1 Score (Harmonic mean of precision and recall)Confusion Matrix Analysis
+
+# Tools UsedLanguage:
+ 1. PythonData: Pandas, NumPy
+ 2. Visualization: Matplotlib, Seaborn
+ 3. Machine Learning: Scikit-learn, Imbalanced-learn, TensorFlow/Keras (for NN)
