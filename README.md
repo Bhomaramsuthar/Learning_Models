@@ -24,7 +24,11 @@ Classification & PreprocessingThis repository contains implementations and exper
 3. Evaluation MetricsModels are evaluated using metrics beyond simple accuracy to account for imbalanced datasets:
     Precision & RecallF1 Score (Harmonic mean of precision and recall)Confusion Matrix Analysis
 
-# Tools UsedLanguage:
+# Tools Used Language:
  1. PythonData: Pandas, NumPy
  2. Visualization: Matplotlib, Seaborn
  3. Machine Learning: Scikit-learn, Imbalanced-learn, TensorFlow/Keras (for NN)
+
+ # Dataset Used:
+ MAGIC Gamma Telescope dataset — a benchmark dataset for classifying gamma rays vs. hadrons based on telescope measurements.<br>
+ https://archive.ics.uci.edu/dataset/159/magic+gamma+telescope
