@@ -24,6 +24,14 @@ Classification & PreprocessingThis repository contains implementations and exper
 3. Evaluation MetricsModels are evaluated using metrics beyond simple accuracy to account for imbalanced datasets:
     Precision & RecallF1 Score (Harmonic mean of precision and recall)Confusion Matrix Analysis
 
+# Prediction on data as per models
+ 1. k Nearest Neighbour - 80%
+ 2. Navie Bayes - 71%
+ 3. Log Regression - 78%
+ 4. Support Vector Machine - 86%
+ 5. Neural Network - 87%
+
+
 # Tools Used Language:
  1. PythonData: Pandas, NumPy
  2. Visualization: Matplotlib, Seaborn
